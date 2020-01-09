@@ -1,8 +1,9 @@
 import React from 'react'
 import Head from 'next/head'
+import Layout from "../components/layout.js"
 
 const Home = () => (
-  <div>
+  <Layout>
     <Head>
       <title>Ladada.cc</title>
       <link rel="icon" href="/favicon.ico" />
@@ -37,7 +38,7 @@ const Home = () => (
         font-size: 30px;
       }
     `}</style>
-  </div>
+  </Layout>
 )
 
 export default Home
