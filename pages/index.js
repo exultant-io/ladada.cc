@@ -9,8 +9,9 @@ const Home = () => (
     </Head>
 
     <div className="hero">
-      <img src='./cover.png' alt="cover" />
+      <img src='./cover.jpg' alt="cover" />
     </div>
+    <p className="coming-soon">Coming Soon...</p>
 
     <style jsx>{`
       :global(html) {
@@ -29,6 +30,11 @@ const Home = () => (
       }
       img {
         width: 100%;
+      }
+      .coming-soon {
+        text-align: center;
+        color: violet;
+        font-size: 30px;
       }
     `}</style>
   </div>
